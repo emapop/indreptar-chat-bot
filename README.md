@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### `npm i`
+to install all of the modules.
+
+### https://lucasbassetti.com.br/react-simple-chatbot/#/docs/form
+the documentation for the chatbot
+
 In the project directory, you can run:
 
 ### `npm start`
