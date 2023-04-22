@@ -25,7 +25,7 @@ class Review extends Component {
         <table>
           <tbody>
             <tr>
-              <td>Scor</td>
+              <td>Scor:</td>
               <td>{score}</td>
             </tr>
             <tr>
@@ -90,17 +90,22 @@ class App extends Component {
                 {
                   id: 'optiune1',
                     user: true,
-                    trigger: 'intrebare2',
+                    trigger: 'necesitati',
                     validator: (value) => {
                       if (value.toLowerCase().includes("barbat")) {
                         score = 100;
                         console.log(score);
                       } else if (!value.toLowerCase().includes("barbat") && !value.toLowerCase().includes("femeie")) {
-                        return 'trebuie să răspunzi cu barbat sau bemeie';
+                        return 'trebuie să răspunzi cu barbat sau femeie';
                       }
         
                       return true;
                     },
+                },
+                {
+                  id: 'necesitati',
+                  message: 'La următoarele întrebări despre păcatele lumii, vă rugăm să răspundeți în căsuță cu da sau nu, indiferent de cum scrieți.',
+                  trigger: "intrebare2"
                 },
                 {
                   id: 'intrebare2',
