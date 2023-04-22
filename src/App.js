@@ -84,7 +84,7 @@ class App extends Component {
                 },
                 {
                   id: 'intrebare1',
-                  message: 'Ce te-a făcut Dumnezeu? Barbat sau femeie?',
+                  message: 'Ce te-a făcut Dumnezeu? Barbat sau femeie? *100 de puncte*',
                   trigger: "optiune1"
                 },
                 {
@@ -109,7 +109,7 @@ class App extends Component {
                 },
                 {
                   id: 'intrebare2',
-                  message: "Fiind rob al pântecelui, am aşteptat cu mare nerăbdare să vină Paştile, Crăciunul sau alte praznice mari spre a face dezlegare la toate mâncărurile şi băuturile.",
+                  message: "Fiind rob al pântecelui, am aşteptat cu mare nerăbdare să vină Paştile, Crăciunul sau alte praznice mari spre a face dezlegare la toate mâncărurile şi băuturile. *150 de puncte*",
                   trigger: "optiune2"
                 },
                 {
@@ -128,7 +128,7 @@ class App extends Component {
                 },
                 {
                   id: 'intrebare3',
-                  message: "Am fost la stadioane, săli de sport, teatre, pentru a urmări meciuri (se pune și dacă te-ai uitat la televizor), spectacole, circuri, conferinţe sau am participat la alte manifestaţii păgâne ori sectare.",
+                  message: "Am fost la stadioane, săli de sport, teatre, pentru a urmări meciuri (se pune și dacă te-ai uitat la televizor), spectacole, circuri, conferinţe sau am participat la alte manifestaţii păgâne ori sectare. *150 de puncte*",
                   trigger: "optiune3"
                 },
                 {
